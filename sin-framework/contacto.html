@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Dayana Portilla</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="estudios.html">Estudios</a>
+    <a href="pasatiempos.html">Pasatiempos</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <section id="contacto">
+    <div class="contacto-container">
+      <div class="contacto-header">
+        <h2>Contacto</h2>
+        <p class="contacto-intro">¿Tienes una propuesta, pregunta o simplemente quieres saludar? Completa el formulario y te responderé pronto.</p>
+      </div>
+
+      <div class="contacto-info">
+        <div class="info-item">
+          <span class="info-icon">✉</span>
+          <span>carmenportilla@unicauca.edu.co</span>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">📍</span>
+          <span>Popayán, Cauca</span>
+        </div>
+
+        <form id="contactForm" class="contacto-form">
+          <div class="form-group">
+            <label for="nombre" class="form-label">NOMBRE COMPLETO *</label>
+            <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Tu nombre">
+            <span class="error-message" id="error-nombre"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">CORREO ELECTRÓNICO *</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="tu@correo.com">
+            <span class="error-message" id="error-email"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="motivo" class="form-label">MOTIVO DE CONTACTO</label>
+            <select id="motivo" name="motivo" class="form-input">
+              <option value="">Selecciona una opción</option>
+              <option value="consulta">Consulta</option>
+              <option value="proyecto">Proyecto</option>
+              <option value="colaboracion">Colaboración</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje" class="form-label">MENSAJE *</label>
+            <textarea id="mensaje" name="mensaje" class="form-input" rows="5" placeholder="Escribe tu mensaje..."></textarea>
+            <span class="error-message" id="error-mensaje"></span>
+          </div>
+
+          <button type="submit" class="btn-enviar">ENVIAR MENSAJE →</button>
+          <div id="formMessage"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2026 Sitio web realizado por Dayana Portilla</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
