@@ -42,10 +42,7 @@ La versión con framework usa un diseño SPA (Single Page Application) con naveg
 
 ### Cómo Ejecutar
 
-Mediante el index.hmtl
-
-### Ver Online
-Accede al sitio desplegado en: [GitHub Pages](https://dayanaportilla.github.io/CV-DayanaPortilla/)
+Mediante el index.hmt
 
 
 ## 📱 Versión Sin Framework 
@@ -61,6 +58,10 @@ Versión multipágina con HTML puro y CSS personalizado.
 
 ### Tecnologías
 - HTML5, CSS3, JavaScript
+
+### Cómo Ejecutar
+
+Mediante el index.hmt
 
 ## 🎨 Diseño General
 
